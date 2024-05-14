@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicios AJAX - Estados de la petición AJAX</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+	<section class="backward">
+		<a href="./index.html"> &larr; Regresar a la página principal</a>
+	</section>
+	<section id="contenedor">
+		<h1>Ejercicios Ajax</h1>
+		<div id="msg"></div>
+		<form action="#">
+			<strong>URL:</strong>
+			<input type="text" id="recurso" size="70">
+			<input type="button" id="enviar" value="Mostrar contenidos">
+		</form>
+
+		<div id="principal">
+			<h2>Contenidos del archivo</h2>
+			<div id="contenidos"></div>
+
+			<h2>Cabeceras HTTP de la respuesta del servidor:</h2>
+			<div id="cabeceras"></div>
+		</div>
+
+		<div id="secundario">
+			<h2>Estados de la petición:</h2>
+			<div id="estados"></div>
+
+			<h2>Código de estado:</h2>
+			<div id="codigo"></div>
+		</div>
+	</section>
+	<script type="text/javascript" src="./js/ejercicios-AJAX.js"></script>
+</body>
+</html>
